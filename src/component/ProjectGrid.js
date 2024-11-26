@@ -6,6 +6,7 @@ import coffee from '../assets/coffee.png'
 import decor from '../assets/decor.png'
 import app from '../assets/app.png'
 import lava from '../assets/lava.png'
+import calc from '../assets/calc.PNG'
 
 import Footer from './Footer'
 import Header from './Header';
@@ -53,6 +54,13 @@ const projects = [
     description: "Un blog responsive avec système de gestion de contenu.",
     image:lava,
     link: "https://hamdihamzadev.github.io/lava/"
+  },
+  {
+    id: 3,
+    title: "Calculatrice",
+    description: "Un blog responsive avec système de gestion de contenu.",
+    image:calc,
+    link: "https://calculator-weld-kappa.vercel.app/"
   },
   // Ajoutez d'autres projets ici
 ];
