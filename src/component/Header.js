@@ -1,4 +1,6 @@
 
+import logoWhite from '../assets/logoWt.png'
+
 const links=[
 {text:'Github',link:'https://github.com/hamdihamzadev'},
 {text:'linkedin',link:'https://www.linkedin.com/in/hamza-hamdi-5b500b19a/'},
@@ -6,10 +8,10 @@ const links=[
 
 function Header() {
   return (
-    <header className="bg-gray-800 text-white py-8">
+    <header className="bg-zinc-950 text-white py-8">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between" >
-        <h1 className="text-3xl font-bold">Mon Portfolio Web</h1>
+        <img src={logoWhite} alt='logo'className='w-[70px]' />
           <nav>
             <ul className="flex items-center gap-x-3 justify-end" >
               {links.map((ele,index)=>(
