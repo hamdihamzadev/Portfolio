@@ -21,13 +21,13 @@ const projects = [
     image:rocacier,
     link: "https://rocacier.org/"
   },
-  {
-    id: 1,
-    title: "Site E-commerce ",
-    description: "boutique en ligne complète avec gestion des produits, des commandes et des utilisateurs..",
-    image: imgStore,
-    link: "https://storefood-4i27.vercel.app/ogani"
-  },
+  // {
+  //   id: 1,
+  //   title: "Site E-commerce ",
+  //   description: "boutique en ligne complète avec gestion des produits, des commandes et des utilisateurs..",
+  //   image: imgStore,
+  //   link: "https://storefood-4i27.vercel.app/ogani"
+  // },
 
   {
     id: 3,
