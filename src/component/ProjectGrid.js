@@ -7,6 +7,7 @@ import decor from '../assets/decor.png'
 import app from '../assets/app.png'
 import lava from '../assets/lava.png'
 import calc from '../assets/calc.PNG'
+import amazon from '../assets/amazon.png'
 
 import Footer from './Footer'
 import Header from './Header';
@@ -50,10 +51,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Site vitrine lava",
-    description: "Un blog responsive avec système de gestion de contenu.",
-    image:lava,
-    link: "https://hamdihamzadev.github.io/lava/"
+    title: "Site E-commerce",
+    description: "Site E-commerce sur afrique.",
+    image:amazon,
+    link: "https://amazonafric1.youcan.store/"
   },
   {
     id: 3,
