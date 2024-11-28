@@ -51,6 +51,13 @@ const projects = [
   },
   {
     id: 3,
+    title: "Site E-commerce Wordpress ",
+    description: "Création et développement d'une boutique avec wordpress elementor hostinger.",
+    image:amazon,
+    link: "https://rocacier.org/"
+  },
+  {
+    id: 3,
     title: "Calculatrice",
     description: "Calculatrice avec javascript.",
     image:calc,
