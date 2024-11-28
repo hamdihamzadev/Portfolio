@@ -3,9 +3,9 @@ import ProjectCard from './ProjectCard';
 import imgStore from '../assets/store.png'
 import siteClinic from '../assets/clinic.png'
 import coffee from '../assets/coffee.png'
-import decor from '../assets/decor.png'
+import rocacier from '../assets/rocacier.png'
 import app from '../assets/app.png'
-import lava from '../assets/lava.png'
+
 import calc from '../assets/calc.PNG'
 import amazon from '../assets/amazon.png'
 
@@ -15,19 +15,20 @@ import Header from './Header';
 // Données de exemple pour les projets
 const projects = [
   {
+    id: 3,
+    title: "Site E-commerce Wordpress ",
+    description: "Création et développement d'une boutique avec wordpress elementor hostinger.",
+    image:rocacier,
+    link: "https://rocacier.org/"
+  },
+  {
     id: 1,
     title: "Site E-commerce ",
     description: "boutique en ligne complète avec gestion des produits, des commandes et des utilisateurs..",
     image: imgStore,
     link: "https://storefood-4i27.vercel.app/ogani"
   },
-  {
-    id: 2,
-    title: "Application de Gestion E-commerce",
-    description: "Une application web pour la gestion complète pour un magasin électronique,.",
-    image: app ,
-    link: "https://dashbord-38yz.vercel.app/"
-  },
+
   {
     id: 3,
     title: "Site hopital",
@@ -49,12 +50,13 @@ const projects = [
     image:amazon,
     link: "https://amazonafric1.youcan.store/"
   },
+
   {
-    id: 3,
-    title: "Site E-commerce Wordpress ",
-    description: "Création et développement d'une boutique avec wordpress elementor hostinger.",
-    image:amazon,
-    link: "https://rocacier.org/"
+    id: 2,
+    title: "Application de Gestion E-commerce",
+    description: "Une application web pour la gestion complète pour un magasin électronique,.",
+    image: app ,
+    link: "https://dashbord-38yz.vercel.app/"
   },
   {
     id: 3,
