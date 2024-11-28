@@ -17,49 +17,42 @@ const projects = [
   {
     id: 1,
     title: "Site E-commerce ",
-    description: "Un site de commerce électronique moderne avec panier et paiement.",
+    description: "boutique en ligne complète avec gestion des produits, des commandes et des utilisateurs..",
     image: imgStore,
-    link: "https://storefood-4i27.vercel.app/vegetable"
+    link: "https://storefood-4i27.vercel.app/ogani"
   },
   {
     id: 2,
     title: "Application de Gestion E-commerce",
-    description: "Une application web pour la gestion de projets et de tâches.",
+    description: "Une application web pour la gestion complète pour un magasin électronique,.",
     image: app ,
     link: "https://dashbord-38yz.vercel.app/"
   },
   {
     id: 3,
     title: "Site hopital",
-    description: "Un blog responsive avec système de gestion de contenu.",
+    description: "Site web statique pour présenter les services d'un hôpital.",
     image:siteClinic,
     link: "https://hopital-chi.vercel.app/"
   },
   {
     id: 2,
     title: "Site de coffee",
-    description: "Une application web pour la gestion de projets et de tâches.",
+    description: "Site web statique pour présenter une marque de café.",
     image: coffee ,
     link: "https://web-coffee-nine.vercel.app/"
   },
   {
     id: 3,
     title: "Site E-commerce",
-    description: "Un blog responsive avec système de gestion de contenu.",
-    image:decor,
-    link: "/projets/blog"
-  },
-  {
-    id: 3,
-    title: "Site E-commerce",
-    description: "Site E-commerce sur afrique.",
+    description: "Site E-commerce general sur afrique.",
     image:amazon,
     link: "https://amazonafric1.youcan.store/"
   },
   {
     id: 3,
     title: "Calculatrice",
-    description: "Un blog responsive avec système de gestion de contenu.",
+    description: "Calculatrice avec javascript.",
     image:calc,
     link: "https://calculator-weld-kappa.vercel.app/"
   },
