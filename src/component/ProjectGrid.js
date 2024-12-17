@@ -1,16 +1,18 @@
 import React from 'react';
+import '../assets/style/home.css'
 import ProjectCard from './ProjectCard';
-import imgStore from '../assets/store.png'
 import siteClinic from '../assets/clinic.png'
 import coffee from '../assets/coffee.png'
 import rocacier from '../assets/rocacier.png'
 import app from '../assets/app.png'
+import softy from '../assets/softy.webp'
 
 import calc from '../assets/calc.PNG'
 import amazon from '../assets/amazon.png'
 
 import Footer from './Footer'
 import Header from './Header';
+// import Slide from './Slide';
 
 // Données de exemple pour les projets
 const projects = [
@@ -21,13 +23,6 @@ const projects = [
     image:rocacier,
     link: "https://rocacier.org/"
   },
-  // {
-  //   id: 1,
-  //   title: "Site E-commerce ",
-  //   description: "boutique en ligne complète avec gestion des produits, des commandes et des utilisateurs..",
-  //   image: imgStore,
-  //   link: "https://storefood-4i27.vercel.app/ogani"
-  // },
 
   {
     id: 3,
@@ -35,6 +30,13 @@ const projects = [
     description: "Site web statique pour présenter les services d'un hôpital.",
     image:siteClinic,
     link: "https://hopital-chi.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Template Business Strategy",
+    description: "Web Template for Business Strategy Solutions.",
+    image: softy ,
+    link: "https://softy-template-dt8q.vercel.app/"
   },
   {
     id: 2,

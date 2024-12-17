@@ -1,0 +1,7 @@
+#slide{
+    background-color: rgb(226, 226, 226);
+    border-block: 1px solid black;
+}
+#slide #img img{
+    width: 50%;
+}

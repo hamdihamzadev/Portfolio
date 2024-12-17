@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectCard({ project }) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="bg-white border border-gray-950 shadow-md overflow-hidden">
       <img 
         src={project.image} 
         alt={project.title} 
